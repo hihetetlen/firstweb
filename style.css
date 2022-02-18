@@ -1,0 +1,208 @@
+body
+{
+  background-color: #666666;
+  color: black;
+  font-family: sans-serif, Arial;
+  font-size: 15px;
+  line-height: 1.5;
+  
+}
+
+header
+{
+  background-color: #e5e5e5;
+  background-image: url(res/background.jpg);
+  background-position: bottom;
+  padding:15px;
+  height: 115px;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+header a
+{
+  text-decoration: none;
+  color: darkgray;
+  
+}
+
+header a:hover
+{
+  text-decoration: none;
+  color: darkgray;
+}
+
+
+
+header h1
+{
+  background: rgba(0,0,0,0.33);
+  color:#fff;
+  max-width: 480px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: auto;
+  border: 1px solid;
+}
+
+nav
+{
+ background: #777777;
+}
+
+nav ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav li
+{
+  display: inline-block;
+}
+
+nav a
+{
+  display: block;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #aaa;
+  transition: background 0.7s, color 0.9s;
+  
+}
+
+nav a:hover
+{
+  color: #fff;
+  text-decoration-line: underline;
+  background: #333333;
+}
+
+.container
+{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.intro
+{
+  font-weight: bold;
+}
+
+main 
+{
+  background: #fff;
+  padding: 25px;
+  width: 70%;
+  float: left;
+  box-sizing: border-box;
+}
+
+aside
+{
+  /*background: #ccc;*/
+  padding: 25px;
+  width: 30%;
+  float: right;
+  box-sizing: border-box
+}
+
+footer
+{
+  background: #999;
+  padding: 25px;
+  height: 100%;
+  clear: both;
+  color: rgba(255,255,255, 0.66);
+  text-align: center;
+}
+
+.container a
+{
+  background: #ccc;
+  color: #666;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  transition: background 0.5s, color 0,5s;
+}
+
+.container a:hover
+{
+  background: #aaa;
+  color: #fff;
+}
+
+/* SERVICES */
+
+table
+{
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+thead
+{
+  background: #666;
+  color:#fff<
+}
+th
+{
+  text-align: left;
+}
+th,td
+{
+  padding: 5px;
+  padding-left: 15px;
+}
+tbody tr
+{
+  border-bottom: 1px solid #ddd;
+}
+tbody tr:hover
+{
+  background: #eee;
+}
+
+.container table a
+{
+  background: transparent;
+}
+
+.container table a:hover
+{
+  background: transparent;
+  color: #608bb1;
+}
+
+.gallery
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 25px;
+  
+}
+
+.gallery li
+{
+  width: 33%;
+  float: left;
+}
+
+.container .gallery a
+{
+  background: transparent;
+  padding: 0;
+  display: block;
+}
